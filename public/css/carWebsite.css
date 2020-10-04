@@ -1,0 +1,91 @@
+/* General Layout */
+
+.main-table {
+    margin-top: 5em;
+}
+
+/* Main Table */
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Pagination Links */
+
+ul.pagination {
+    font-size: 125%;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li:hover {
+    text-decoration: underline;
+}
+
+html, body {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.sub-title {
+    font-size: 54px;
+    text-align: center;
+}
+
+.links > a {
+    color: #000000;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.credits {
+    font-size: 24px;
+    color: #000000;
+    text-align-all: right;
+    margin-top: 40px;
+}
+
+.m-b-md {
+    margin-bottom: 40px;
+}
